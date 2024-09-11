@@ -27,3 +27,5 @@ class CommentReplyForm(forms.ModelForm):
 
 
 
+class PostSearchForm(forms.Form):
+    search = forms.CharField()
